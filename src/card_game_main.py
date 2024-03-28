@@ -3,5 +3,5 @@ class Game:
         self.players = []
         self.playing = False
 
-    def get_player(self, player):
+    def add_player(self, player):
         self.players.append(player)
