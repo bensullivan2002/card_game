@@ -1,6 +1,7 @@
-class Game():
+class Game:
     def __init__(self):
-        pass
+        self.players = []
+        self.playing = False
 
-    def create_game(self):
-        return Game()
+    def get_player(self, player):
+        self.players.append(player)
